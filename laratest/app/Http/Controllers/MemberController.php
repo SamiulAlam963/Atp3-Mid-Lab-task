@@ -15,7 +15,7 @@ class MemberController extends Controller
            echo "Null submission";
        }
        elseif($req->username==$req->password){
-          // echo "Valid User";
+         
           return redirect('/home');
        } 
        else
